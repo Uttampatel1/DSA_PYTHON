@@ -35,3 +35,6 @@ test_val1 = 25
 test_val2 = 15
 print (binary_search(test_list, test_val1))
 print (binary_search(test_list, test_val2))
+
+# time complexity of binary serch is : O(log(n))
+# space complexity of binary serch is : O(1)
