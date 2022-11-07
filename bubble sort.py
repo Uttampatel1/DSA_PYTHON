@@ -29,3 +29,6 @@ def bubble_sort(arr):
 if __name__ == '__main__':
     list = [5, 4, 3, 2, 1]
     print(bubble_sort(list))
+
+# time complexity of bubble sort is : O(n^2)
+# space complexity of bubble sort is : O(1)
