@@ -29,9 +29,9 @@ class BST(object):
             if start.value == find_val:
                 return True
             elif start.value < find_val:
-                self.start_search(self.right,find_val)
+                self.start_search(start.right,find_val)
             else:
-                self.start_search(self.left,find_val)
+                self.start_search(start.left,find_val)
         return False
 
 
